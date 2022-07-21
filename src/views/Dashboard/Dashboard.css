@@ -1,0 +1,44 @@
+.dashboard_boardroom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.dashboard_bombfarm {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 3fr;
+}
+
+.summary_table {
+    margin: 0 1rem;
+    color: #fff;
+}
+
+.summary_table table {
+    border-collapse: collapse;
+    border-spacing: 0.5rem 0.4rem;
+    width: 100%;
+}
+
+.summary_table th, td {
+    width:120px;
+    text-align:center;
+    padding-bottom:0.5rem;
+    border-bottom:1px solid rgba(255, 255, 255, 0.336);
+ 
+}
+
+.summary_table tr {
+    margin: 1rem;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.603);
+}
+
+.summary_table td p img{
+    vertical-align: middle;
+    margin-right: 0.2rem;
+}
+.summary_table td p{
+    text-align:center;
+    vertical-align:bottom;
+}
+
